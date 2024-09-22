@@ -1,0 +1,21 @@
+h1 {
+    background-color: #a59aca;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2 {
+    border-bottom: double 5px #a59aca;
+}
+
+h3 {
+    border-bottom: dotted 5px #a59aca;
+}
+
+.img_h1,
+.img_h2,
+.img_h3 {
+    vertical-align: middle;
+    /* 画像を文字と垂直方向で中央揃えにする */
+}
