@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style-notes.css">
+    <link rel="stylesheet" href="./css/details.css">
+    <link rel="stylesheet" href="./css/hr.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaconJam マニュアル</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- Google font Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <!-- google-adsense -->
+    <meta name="google-adsense-account" content="ca-pub-2961043635944259">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2961043635944259"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header style="background-color: #a59aca;padding: 10px;">
+        <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="https://96enu-kuroinu.github.io/IntervalSnapManual/">
+                    <span itemprop="name">🏠TOP</span>
+                </a>
+                <meta itemprop="position" content="1" />
+
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="./version-history.html">
+                    <span itemprop="name">📜バージョン履歴</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+            </li>
+        </ol>
+        <p id="lastUpdated"></p>
+    </header>
+
+    <div class="contentsbody">
+        <h1>📜バージョン履歴</h1>
+        <div style="text-align: center;">
+            <p class="button" id="openAllBtn"><a href="JavaScript:void(0)">すべての詳細をひらく</a></p>
+            <p class="button" id="closeAllBtn"><a href="JavaScript:void(0)">すべての詳細をとじる</a></p>
+        </div>
+
+        <div id="toc">
+            <ul id="toc-list"></ul>
+        </div>
+
+        <!--
+
+        バージョン履歴テンプレート
+
+        <details class="details" id="version">
+            <summary class="summary">0.0.0(バージョンコード0)</summary>
+            <div class="content">
+
+
+                <div class="table-container" data-release-date="20240831" data-install-size="17.4[MB]"></div>
+
+                    <hr class="new">
+                    <hr class="change">
+                    <hr class="fix">
+            </div>
+        </details>
+
+        Google iconボタンテンプレート
+
+        <span class="button-like-text"><span class="material-icons" style="font-size: 1.2em;">iconname</span></span>
+        -->
+
+        <h2>1.0系(2024年03月28日～)</h2>
+        <p>クローズドテストを開始しました。</p>
+
+        <details class="details" id="version10">
+            <summary class="summary">1.0.10(バージョンコード11)</summary>
+            <div class="content">
+                <!-- 基本情報テーブル -->
+                <div class="table-container" data-release-date="20240922" data-install-size="8.48[MB]"></div>
+                <hr class="new">
+                <ul>
+                    <li>ギャラリー画面でサムネイルを長押したときにフィードバック振動を返す機能を追加しました。</li>
+                </ul>
+                <hr class="change">
+                <hr class="fix">
+            </div>
+        </details>
+
+        <details class="details" id="version9">
+            <summary class="summary">1.0.9(バージョンコード10)</summary>
+            <div class="content">
+                <!-- 基本情報テーブル -->
+                <div class="table-container" data-release-date="20240919" data-install-size="8.48[MB]"></div>
+                <hr class="new">
+                <ul>
+                    <li>ギャラリー画面でサムネイルを長押しして選択した写真を削除する機能を追加しました。</li>
+                </ul>
+                <hr class="change">
+                <hr class="fix">
+                <ul>
+                    <li>撮影する写真のサイズのパーセント表示を整数表示に修正しました。</li>
+                </ul>
+            </div>
+        </details>
+
+        <details class="details" id="version8">
+            <summary class="summary">1.0.7(バージョンコード8)</summary>
+            <div class="content">
+                <!-- 基本情報テーブル -->
+                <div class="table-container" data-release-date="20240904" data-install-size="8.48[MB]"></div>
+                <hr class="new">
+                <ul>
+                    <li>ギャラリー詳細画面に写真の削除機能を追加しました。</li>
+                    <li>撮影開始・終了時にシャッターアイコンが回転するアニメーション効果を追加しました。</li>
+                </ul>
+                <hr class="change">
+                <hr class="fix">
+                <ul>
+                    <li>android14(SDK34)で動作しなくなる不具合を修正しました。</li>
+                </ul>
+            </div>
+        </details>
+
+        <details class="details" id="version7">
+            <summary class="summary">1.0.6(バージョンコード7)</summary>
+            <div class="content">
+                <!-- 基本情報テーブル -->
+                <div class="table-container" data-release-date="20240903" data-install-size="8.47[MB]"></div>
+                <hr class="new">
+                <ul>
+                    <li>撮影する写真のサイズを10%～100%の範囲で調節できる機能を追加しました。</li>
+                </ul>
+                <hr class="change">
+                <hr class="fix">
+                <ul>
+                    <li>android14(SDK34)で動作しなくなる不具合を修正しました。</li>
+                </ul>
+            </div>
+        </details>
+
+        <details class="details" id="version6">
+            <summary class="summary">1.0.5(バージョンコード6)</summary>
+            <div class="content">
+                <!-- 基本情報テーブル -->
+                <div class="table-container" data-release-date="20240902" data-install-size="8.54[MB]"></div>
+                <hr class="new">
+                <ul>
+                    <li>ギャラリー画面の写真に以下の順で並び替える機能を追加しました。</li>
+                    <ul>
+                        <li>新しい順</li>
+                        <li>古い順</li>
+                    </ul>
+                </ul>
+                <hr class="change">
+                <hr class="fix">
+                <ul>
+                    <li>ギャラリー画面がスクロールできない不具合を修正しました。</li>
+                </ul>
+            </div>
+        </details>
+
+        <details class="details" id="version4">
+            <summary class="summary">1.0.3(バージョンコード4)</summary>
+            <div class="content">
+                <!-- 基本情報テーブル -->
+                <div class="table-container" data-release-date="20240604" data-install-size="8.56[MB]"></div>
+                <hr class="new">
+                <ul>
+                    <li>クローズドテストを開始しました。</li>
+                </ul>
+                <hr class="change">
+                <hr class="fix">
+            </div>
+        </details>
+        <img id="hover-image" src="" alt="画像" style="display:none;">
+        <div style="text-align: center;">
+            <img src="./images/Amazon-logo-RGB.png" alt="固定画像" width="200" style="cursor: pointer;" onclick="
+                redirectToRandomUrl()">
+        </div>
+    </div>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+    <script src="./js/auto-open-details.js"></script>
+    <script src="./js/date-convert.js"></script>
+    <script src="./js/details-open-close.js"></script>
+    <script src="./js/generate-base-information-table.js"></script>
+    <script src="./js/generate-text-by-image.js"></script>
+    <script src="./js/generate-toc.js"></script>
+    <script src="./js/generate-url.js"></script>
+    <script src="./js/generate-version-hint.js"></script>
+    <script src="./js/load-footer.js"></script>
+    <script src="./js/load-last-update-date.js"></script>
+    <script src="./js/load-version.js"></script>
+    <script src="./js/show-image.js"></script>
+</body>
+
+
+</html>
